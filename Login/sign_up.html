@@ -80,18 +80,18 @@
             <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
               <div class="card card-plain mt-8">
                 <div class="card-header pb-0 text-left bg-transparent">
-                  <h3 class="font-weight-bolder text-info text-gradient">Welcome!</h3>
+                  <h3 class="font-weight-bolder text-info text-gradient">Welcome Farmer!</h3>
                   <p class="mb-0">It's quick and easy!</p>
                 </div>
                 <div class="card-body">
-                  <form method="post" action="connection.php">
-                  <label>First Name</label>
+                  <form method="post" action="../php/connection.php">
+                  <label>Name</label>
                     <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" aria-label="First Name" aria-describedby="fname-addon">
+                      <input type="text" class="form-control" placeholder="Name" id="name" name="name" aria-label="Name" aria-describedby="name-addon">
                     </div> 
-                   <label>Last Name</label>
+                   <label>Location</label>
                     <div class="mb-3">
-                      <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" aria-label="Last Name" aria-describedby="lname-addon">
+                      <input type="text" class="form-control" placeholder="Location" id="location" name="location" aria-label="Location" aria-describedby="location-addon">
                     </div> 
                   <label>Email</label>
                     <div class="mb-3">
@@ -101,14 +101,18 @@
                     <div class="mb-3">
                       <input type="password" class="form-control" placeholder="Password" id="password" name="password" aria-label="Password" aria-describedby="password-addon">
                     </div>
+                    <label>Farm Name</label>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" placeholder="Farm Name" id="farmname" name="farmname" aria-label="Farmname" aria-describedby="farmname-addon">
+                    </div>
 
-                    <label for="User type">Select user type:</label>
+                    <!-- <label for="User type">Select user type:</label>
                     <div class="mb-3" >
                       <select name="User type" id="User type" style="border-radius: 15px ">
                         <option value="rigatoni">Customer</option>
                       <option value="dave">Farmer</option>
                     </select>
-                    </div> 
+                    </div>  -->
 
                     <div class="text-center">
                       <button type="submit" class="btn bg-gradient-info w-100 mt-4 mb-0">Sign Up</button>
